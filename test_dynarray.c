@@ -13,9 +13,9 @@ int main(int argc, char** argv) {
   }
 
   printf("== Dynamic array contents: ");
-  for (int i = 0; i < dynarray_size(da) - 1; i++) {
-    printf("%4d,", dynarray_get(da, i));
+  for (int i = 0; i < dynarray_size(da); i++) {
+    printf("%4d ", dynarray_get(da, i));
   }
-  printf("%4d\n", dynarray_get(da, dynarray_size(da) - 1));
+  printf("\n");
 
 }
