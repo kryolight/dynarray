@@ -1,2 +1,3 @@
+*.dSYM
 dynarray.o
 test_dynarray
